@@ -1,3 +1,2 @@
 # telemetry_playground
- This module monitoring proof of concept currently observes entire modules, but it can be extended to monitor specific functions only. It’s also designed to support dynamic addition or removal of monitored functions in the future.
- 
+This module was intended to enable runtime monitoring of function calls in selected modules without requiring code changes. While it works as designed, enabling BEAM tracing introduces significant performance overhead, especially on frequently called (“hot path”) functions. 
