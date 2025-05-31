@@ -21,7 +21,7 @@ if System.get_env("PHX_SERVER") do
 end
 
 config :telemetry_playground,
-  traced_modules: [Mod1, Mod2]
+  traced_modules: [Observed]
 
 if config_env() == :prod do
   # The secret key base is used to sign/encrypt cookies and other secrets.

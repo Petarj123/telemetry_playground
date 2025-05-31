@@ -54,7 +54,8 @@ defmodule TelemetryPlayground.MixProject do
       {:gettext, "~> 0.26"},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
-      {:bandit, "~> 1.5"}
+      {:bandit, "~> 1.5"},
+      {:benchee, "~> 1.4"}
     ]
   end
 
